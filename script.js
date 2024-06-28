@@ -33,7 +33,7 @@ function myClear() {
 
 function myDel() {
     if (currentDisplay == result) {
-        document.getElementById("display2").value = '';
+        document.getElementById("display").value = '';
     }
     else {
         let str = currentDisplay;
